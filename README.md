@@ -120,7 +120,7 @@ As an additional challenge, consider implementing the following bonus objectives
 
 ## Submission ⌛
 
-The deadline for submitting your code is Thursday, March 14 (24th of Esfand).
+The deadline for submitting your code is Tuesday, March 19 (29th of Esfand).
 
 ## Resources 📚
 
