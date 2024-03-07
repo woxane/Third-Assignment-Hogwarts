@@ -14,7 +14,7 @@ Before diving into the enchanting world of Hogwarts, ensure you have the followi
 
 By completing this assignment, you will:
 
-- Reinforce your understanding of Object-Oriented Programming (OOP) principles and apply them effectively.
+- Reinforce your understanding of Object-Oriented Programming (OOP) principles and apply them effectively (It is highly recommended to read 'Different patterns to design your classes' in the Resource section).
 - Gain familiarity with concepts such as encapsulation, inheritance, and polymorphism.
 - Hone your skills in designing robust and scalable classes.
 - Learn to manage and track changes in your project using Git.
@@ -116,7 +116,7 @@ As an additional challenge, consider implementing the following bonus objectives
 - **Sort Course's List of Students**: Allow sorting of the list of students within a course based on specific criteria.
 - **View Weekly Schedule**: Implement functionality for students to view their weekly schedule (optional).
 - **Utilize Abstract Classes and Interfaces**: Explore the usage of abstract classes and interfaces in your Java implementation to achieve better code structure and design.
-- Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is Javafx. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications.
+- Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is Javafx. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications. In the event that you encounter any difficulties adding JavaFX to your project, you have the option to create a separate repository and develop your project there.
 
 ## Submission ⌛
 
@@ -126,9 +126,9 @@ The deadline for submitting your code is Thursday, March 14 (24th of Esfand).
 
 For assistance with this assignment, you may refer to the following resources:
 
-- 🔗 [Different patterns to design your classes](https://refactoring.guru/design-patterns/catalog)
-- 🔗 [Visual Paradigm for drawing UML diagrams](https://www.visual-paradigm.com/)
-- 🔗 [Types of UML Diagrams](https://www.lucidchart.com/blog/types-of-UML-diagrams)
-- 🔗 [Guide to UUID in Java](https://www.baeldung.com/java-uuid)
+🔗 [Different patterns to design your classes](https://refactoring.guru/design-patterns/catalog)
+🔗 [Visual Paradigm for drawing UML diagrams](https://www.visual-paradigm.com/)
+🔗 [Types of UML Diagrams](https://www.lucidchart.com/blog/types-of-UML-diagrams)
+🔗 [Guide to UUID in Java](https://www.baeldung.com/java-uuid)
 
 Additionally, you may explore online tutorials, forums, and documentation for further guidance on
