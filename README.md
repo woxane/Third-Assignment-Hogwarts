@@ -23,7 +23,7 @@ By completing this assignment, you will:
 
 1. Fork this repository and clone it to your local machine.
 2. Create a new branch named `develop` and switch to it. All development should be done in this branch.
-3. Complete or create the following classes, ensuring they meet the specified requirements outlined in the "Designing the Classes" section.
+3. **Complete or create** the following classes, ensuring they meet the specified requirements outlined in the "Designing the Classes" section.
 4. Implement an interactive menu in the command line's `runMenu()` function of the Main class, enabling users to utilize the program's functionalities seamlessly.
 5. Write a comprehensive report in Markdown format, detailing the tasks you've completed and any challenges encountered. Include UML diagrams of the classes you've developed. For example, a UML diagram for account class is as follows:![Account UML](Account.png)
 6. Commit your changes and push them to your GitHub repository.
