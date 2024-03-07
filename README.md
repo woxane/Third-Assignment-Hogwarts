@@ -31,7 +31,7 @@ By completing this assignment, you will:
 
 ## Designing the Classes 💡
 
-In this section, the functionalities of each user type are explained. Your task is to design the classes to ensure the program possesses the specified functionality.
+In this section, the functionalities of each user type are explained. Your task is to design the classes to ensure the program possesses the specified functionality. **Ensure that classes are designed with proper encapsulation**, where internal state is hidden and accessed only through well-defined methods. One way to do it is to define getter and setter methods.
 
 ### Teacher class:
 
