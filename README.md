@@ -10,7 +10,7 @@ Before diving into the enchanting world of Hogwarts, ensure you have the followi
 - Git
 - Gradle as a package manager
 
-## Objectives
+## Objectives ✏️
 
 By completing this assignment, you will:
 
@@ -25,11 +25,11 @@ By completing this assignment, you will:
 2. Create a new branch named `develop` and switch to it. All development should be done in this branch.
 3. Complete or create the following classes, ensuring they meet the specified requirements outlined in the "Designing the Classes" section.
 4. Implement an interactive menu in the command line's `runMenu()` function of the Main class, enabling users to utilize the program's functionalities seamlessly.
-5. Write a comprehensive report in Markdown format, detailing the tasks you've completed and any challenges encountered. Include UML diagrams of the classes you've developed.
+5. Write a comprehensive report in Markdown format, detailing the tasks you've completed and any challenges encountered. Include UML diagrams of the classes you've developed. For example, a UML diagram for account class is as follows:![Account UML](Account.png)
 6. Commit your changes and push them to your GitHub repository.
 7. Submit a pull request from your `develop` branch to your `main` branch. Your mentor will review the pull request and merge it upon approval.
 
-## Designing the Classes
+## Designing the Classes 💡
 
 In this section, the functionalities of each user type are explained. Your task is to design the classes to ensure the program possesses the specified functionality.
 
@@ -115,6 +115,8 @@ As an additional challenge, consider implementing the following bonus objectives
 
 - **Sort Course's List of Students**: Allow sorting of the list of students within a course based on specific criteria.
 - **View Weekly Schedule**: Implement functionality for students to view their weekly schedule (optional).
+- **Utilize Abstract Classes and Interfaces**: Explore the usage of abstract classes and interfaces in your Java implementation to achieve better code structure and design.
+- Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is Javafx. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications.
 
 ## Submission ⌛
 
@@ -124,9 +126,9 @@ The deadline for submitting your code is Thursday, March 14 (24th of Esfand).
 
 For assistance with this assignment, you may refer to the following resources:
 
-- [Different patterns to design your classes](https://refactoring.guru/design-patterns/catalog)
-- [Visual Paradigm for drawing UML diagrams](https://www.visual-paradigm.com/)
-- [Types of UML Diagrams](https://www.lucidchart.com/blog/types-of-UML-diagrams)
-- [Guide to UUID in Java](https://www.baeldung.com/java-uuid)
+- 🔗 [Different patterns to design your classes](https://refactoring.guru/design-patterns/catalog)
+- 🔗 [Visual Paradigm for drawing UML diagrams](https://www.visual-paradigm.com/)
+- 🔗 [Types of UML Diagrams](https://www.lucidchart.com/blog/types-of-UML-diagrams)
+- 🔗 [Guide to UUID in Java](https://www.baeldung.com/java-uuid)
 
 Additionally, you may explore online tutorials, forums, and documentation for further guidance on
