@@ -127,8 +127,11 @@ The deadline for submitting your code is Tuesday, March 19 (29th of Esfand).
 For assistance with this assignment, you may refer to the following resources:
 
 🔗 [Different patterns to design your classes](https://refactoring.guru/design-patterns/catalog)
+
 🔗 [Visual Paradigm for drawing UML diagrams](https://www.visual-paradigm.com/)
+
 🔗 [Types of UML Diagrams](https://www.lucidchart.com/blog/types-of-UML-diagrams)
+
 🔗 [Guide to UUID in Java](https://www.baeldung.com/java-uuid)
 
 Additionally, you may explore online tutorials, forums, and documentation for further guidance on
