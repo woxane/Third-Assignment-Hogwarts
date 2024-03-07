@@ -119,6 +119,7 @@ As an additional challenge, consider implementing the following bonus objectives
 - **Sort Course's List of Students**: Allow sorting of the list of students within a course based on specific criteria.
 - **View Weekly Schedule**: Implement functionality for students to view their weekly schedule (optional).
 - **Utilize Abstract Classes and Interfaces**: Explore the usage of abstract classes and interfaces in your Java implementation to achieve better code structure and design.
+- Enhance your classes by incorporating additional attributes and methods to enrich their functionality and expand their capabilities.
 - Provide a simple GUI (Graphical User Interface) for your project. The recommended library to do so is Javafx. JavaFX empowers developers to create dynamic and engaging user interfaces for their Java applications, offering a modern and versatile platform for building cross-platform desktop, web, and mobile applications. In the event that you encounter any difficulties adding JavaFX to your project, you have the option to create a separate repository and develop your project there.
 
 ## Submission ⌛
