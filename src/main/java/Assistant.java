@@ -88,5 +88,6 @@ public class Assistant extends Account {
 
         Course course = new Course(title , null);
 
+        Hogwarts.courses.add(course);
     }
 }
