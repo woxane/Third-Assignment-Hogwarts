@@ -8,7 +8,7 @@ public class Account implements AccountManagement{
     String password;
     final UUID accountID;
     final String role;
-    Rate rating;
+    ArrayList<Rate> rating;
     Account (String username , String password , String role) {
         this.username = username;
         this.password = DigestUtils.sha256Hex(password);
@@ -33,7 +33,7 @@ public class Account implements AccountManagement{
         double ratingSum = 0.0;
         int numberOfRates = 0;
 
-        for (Rate rate : Hogwarts.rates) {
+        for (Rate rate : rating) {
             if (Objects.equals(this.accountID , rate.subjectId)) {
                 ratingSum += rate.rating;
                 numberOfRates++;
