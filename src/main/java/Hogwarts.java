@@ -9,15 +9,15 @@ public class Hogwarts {
 
     static public void viewAllTeachers() {
         for (Teacher teacher : teachers) {
-            System.out.println("Name : " + teacher.username + "\nRatings : " + teacher.rating +
-                    " (with " + teacher.getRating() + " votes)");
+            System.out.println("Name : " + teacher.username + "\nRatings : " + teacher.getRating() +
+                    " (with " + teacher.rating.size() + " votes)");
         }
     }
 
     static public void viewAllStudents() {
         for (Student student : students) {
-            System.out.println("Name : " + student.username + "\nRatings : " + student.rating +
-                    " (with " + student.getRating() + " votes)");
+            System.out.println("Name : " + student.username + "\nRatings : " + student.getRating() +
+                    " (with " + student.rating.size() + " votes)");
         }
     }
 
