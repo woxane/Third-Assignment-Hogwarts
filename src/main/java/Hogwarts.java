@@ -14,7 +14,10 @@ public class Hogwarts {
     }
 
     public void viewAllStudents() {
-        //TODO
+        for (Student student : students) {
+            System.out.println("Name : " + student.username + "\nRatings : " + student.rating +
+                    " (with " + student.numberOfVotes + " votes)");
+        }
     }
 
     public void viewAllCourses() {
