@@ -7,9 +7,7 @@ public class Account implements AccountManagement{
     String password;
     final UUID accountID;
     final String role;
-    double rating;
-    int numberOfVotes;
-
+    Rate rating;
     Account (String username , String password , String role) {
         this.username = username;
         this.password = DigestUtils.sha256Hex(password);
