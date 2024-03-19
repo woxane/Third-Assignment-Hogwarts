@@ -7,21 +7,21 @@ public class Hogwarts {
     static ArrayList<Rate> rates = new ArrayList<>();
 
 
-    public void viewAllTeachers() {
+    static public void viewAllTeachers() {
         for (Teacher teacher : teachers) {
             System.out.println("Name : " + teacher.username + "\nRatings : " + teacher.rating +
                     " (with " + teacher.getRating() + " votes)");
         }
     }
 
-    public void viewAllStudents() {
+    static public void viewAllStudents() {
         for (Student student : students) {
             System.out.println("Name : " + student.username + "\nRatings : " + student.rating +
                     " (with " + student.getRating() + " votes)");
         }
     }
 
-    public void viewAllCourses() {
+    static public void viewAllCourses() {
         for (Course course : courses ) {
             System.out.println("Title : " + course.title + "\nTeacher Name : " + course.teacher +
                     "\nAssignments : " + course.assignment);
