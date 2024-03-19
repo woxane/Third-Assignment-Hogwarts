@@ -137,4 +137,14 @@ public class Teacher extends Account {
         Hogwarts.viewAllCourses();
     }
 
+    public void viewStudents(Course course) {
+        if (course.students.isEmpty()) {
+            System.out.println("Sorry this course has no students . ");
+        }
+
+        for (Student student : course.students) {
+            System.out.println("Name : " + student.username + "\nRatings : " + student.getRating() +
+                    " (with " + student.rating.size() + " votes)");
+        }
+    }
 }
