@@ -7,7 +7,10 @@ public class Hogwarts {
 
 
     public void viewAllTeachers() {
-        //TODO
+        for (Teacher teacher : teachers) {
+            System.out.println("Name : " + teacher.username + "\nRatings : " + teacher.rating +
+                    " (with " + teacher.numberOfVotes + " votes)");
+        }
     }
 
     public void viewAllStudents() {
