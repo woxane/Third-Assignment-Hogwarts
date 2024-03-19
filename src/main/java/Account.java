@@ -3,10 +3,10 @@ import java.util.Objects;
 import org.apache.commons.codec.digest.DigestUtils;
 
 public class Account implements AccountManagement{
-    private String username;
-    private String password;
-    private final UUID accountID;
-    private final String role;
+    String username;
+    String password;
+    final UUID accountID;
+    final String role;
 
     Account (String username , String password , String role) {
         this.username = username;
