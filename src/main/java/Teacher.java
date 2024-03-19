@@ -132,4 +132,9 @@ public class Teacher extends Account {
             } while(true);
         }
     }
+
+    public void viewCourses() {
+        Hogwarts.viewAllCourses();
+    }
+
 }
