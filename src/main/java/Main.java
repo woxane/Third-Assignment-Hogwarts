@@ -17,7 +17,18 @@ public class Main {
 
     }
 
-    public static void runMenu() {
-        // TODO: Menu will be shown here...
+    public static void runMenu(int Option) {
+        switch (Option) {
+            case 1 :
+                //Login
+                break;
+
+            case 2 :
+                //Sign Up
+                break;
+
+            default :
+                System.out.println("Wrong one FAM!");
+        }
     }
 }
