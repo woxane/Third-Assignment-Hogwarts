@@ -14,7 +14,6 @@ public class Main {
 
             runMenu(selectedOption);
         }
-
     }
 
     public static void runMenu(int Option) {
