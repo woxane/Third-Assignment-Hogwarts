@@ -15,7 +15,7 @@ public class Teacher extends Account {
         ArrayList<Course> courseWithOutTeacher = new ArrayList<>();
 
         for (Course course : Hogwarts.courses) {
-            if (!Objects.equals(course.teacher , "")) {
+            if (course.teacher == null) {
                 courseWithOutTeacher.add(course);
             }
         }
