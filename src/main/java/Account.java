@@ -22,6 +22,6 @@ public class Account implements AccountManagement{
     }
 
     public void changePassword(String newPassword) {
-        //TODO
+        this.password = newPassword;
     }
 }
