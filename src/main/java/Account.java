@@ -6,11 +6,13 @@ public class Account implements AccountManagement{
     private String username;
     private String password;
     private final UUID accountID;
+    private final String role;
 
-    Account (String username , String password) {
+    Account (String username , String password , String role) {
         this.username = username;
         this.password = DigestUtils.sha256Hex(password);
         this.accountID = UUID.randomUUID();
+        this.role = role;
 
     }
 
