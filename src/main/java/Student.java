@@ -44,4 +44,8 @@ public class Student extends Account {
             i++;
         }
     }
+
+    public void viewTeachers() {
+        Hogwarts.viewAllTeachers();
+    }
 }
