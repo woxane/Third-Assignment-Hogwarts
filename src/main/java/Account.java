@@ -7,6 +7,8 @@ public class Account implements AccountManagement{
     String password;
     final UUID accountID;
     final String role;
+    double rating;
+    int numberOfVotes;
 
     Account (String username , String password , String role) {
         this.username = username;
