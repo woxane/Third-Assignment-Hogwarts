@@ -18,7 +18,7 @@ public class Account implements AccountManagement{
     }
 
     public void changeUsername(String newUsername) {
-        //TODO
+        this.username = newUsername;
     }
 
     public void changePassword(String newPassword) {
