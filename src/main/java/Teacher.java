@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Teacher extends Account {
     static final String role= "Teacher";
+    ArrayList<Course> courses = new ArrayList<>();
+
     Teacher (String username , String password) {
         super(username , password , role);
 
@@ -37,6 +39,7 @@ public class Teacher extends Account {
 
                 if (!(chosenCourse >= courseWithOutTeacher.size() | chosenCourse <= 0)) {
                     courseWithOutTeacher.get(i - 1).teacher = this;
+                    courses.add(courseWithOutTeacher.get(i - 1));
                     break;
 
                 } else {
