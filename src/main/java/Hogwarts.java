@@ -21,6 +21,10 @@ public class Hogwarts {
     }
 
     public void viewAllCourses() {
-        //TODO
+        for (Course course : courses ) {
+            System.out.println("Title : " + course.title + "\nTeacher Name : " + course.teacher +
+                    "\nAssignments : " + course.assignment);
+
+        }
     }
 }
