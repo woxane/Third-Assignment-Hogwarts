@@ -1,4 +1,5 @@
 import java.util.UUID;
+import java.util.Objects;
 
 public class Account implements AccountManagement{
     private String username;
@@ -13,8 +14,7 @@ public class Account implements AccountManagement{
     }
 
     public boolean validatePassword(String enteredPassword) {
-        //TODO
-        return false;
+        return Objects.equals(enteredPassword, this.username);
     }
 
     public void changeUsername(String newUsername) {
