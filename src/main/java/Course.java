@@ -6,7 +6,7 @@ public class Course {
     final UUID courseID;
     String assignment;
     static ArrayList<Student> students = new ArrayList<>();
-    static String teacher;
+    String teacher;
 
     Course (String title , String teacher) {
         this.title = title;
