@@ -78,4 +78,15 @@ public class Assistant extends Account {
         System.out.println("Student Id : " + student.accountID);
 
     }
+
+    public void createCourse() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter title of the course : ");
+
+        String title = scanner.nextLine();
+
+        Course course = new Course(title , null);
+
+    }
 }
