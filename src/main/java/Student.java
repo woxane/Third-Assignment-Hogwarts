@@ -35,4 +35,13 @@ public class Student extends Account {
         }
 
     }
+
+    public void viewCourses() {
+        int i = 1;
+        for (Course course : courses ) {
+            System.out.println(i + ") " + "Title : " + course.title + "\nTeacher Name : " + course.teacher +
+                    "\nAssignments : " + course.assignment);
+            i++;
+        }
+    }
 }
