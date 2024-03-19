@@ -72,4 +72,10 @@ public class Assistant extends Account {
             }
         }
     }
+
+    public void studentProfile(Student student) {
+        System.out.println("Username : " + student.username);
+        System.out.println("Student Id : " + student.accountID);
+
+    }
 }
