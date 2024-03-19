@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.UUID;
 import java.util.Objects;
 import org.apache.commons.codec.digest.DigestUtils;
@@ -26,5 +27,24 @@ public class Account implements AccountManagement{
 
     public void changePassword(String newPassword) {
         this.password = DigestUtils.sha256Hex(newPassword);
+    }
+
+    public double getRating() {
+        double ratingSum = 0.0;
+        int numberOfRates = 0;
+
+        for (Rate rate : Hogwarts.rates) {
+            if (Objects.equals(this.accountID , rate.subjectId)) {
+                ratingSum += rate.rating;
+                numberOfRates++;
+            }
+        }
+
+        if (numberOfRates == 0) {
+            return 0.0;
+        }
+
+        double finalRate = ratingSum / numberOfRates;
+        return finalRate;
     }
 }
