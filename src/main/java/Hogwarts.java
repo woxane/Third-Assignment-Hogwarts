@@ -12,6 +12,7 @@ public class Hogwarts {
         for (Teacher teacher : teachers) {
             System.out.println(i + ") " + "Name : " + teacher.username + "\nRatings : " + teacher.getRating() +
                     " (with " + teacher.rating.size() + " votes)");
+            i++;
         }
     }
 
@@ -20,6 +21,7 @@ public class Hogwarts {
         for (Student student : students) {
             System.out.println(i + ") " + "Name : " + student.username + "\nRatings : " + student.getRating() +
                     " (with " + student.rating.size() + " votes)");
+            i++;
         }
     }
 
@@ -28,6 +30,7 @@ public class Hogwarts {
         for (Course course : courses ) {
             System.out.println(i + ") " + "Title : " + course.title + "\nTeacher Name : " + course.teacher +
                     "\nAssignments : " + course.assignment);
+            i++;
 
         }
     }
