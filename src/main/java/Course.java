@@ -6,9 +6,9 @@ public class Course {
     final UUID courseID;
     String assignment;
     static ArrayList<Student> students = new ArrayList<>();
-    String teacher;
+    Teacher teacher;
 
-    Course (String title , String teacher) {
+    Course (String title , Teacher teacher) {
         this.title = title;
         this.courseID = UUID.randomUUID();
         this.assignment = "";
